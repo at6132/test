@@ -1,0 +1,1 @@
+Install MongoDB on your machine. Start the MongoDB server. Connect to the MongoDB server using the MongoDB shell or a MongoDB client. Create a new database named 'mydatabase'.
