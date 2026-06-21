@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VANTA COFFEE — Premium Single Origin</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">VANTA</div>
+    <ul class="nav__links">
+      <li><a href="#story">Story</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#origins">Origins</a></li>
+      <li><a href="#shop">Shop</a></li>
+    </ul>
+    <div class="nav__actions">
+      <button class="btn btn--ghost">Cart (0)</button>
+      <button class="nav__hamburger" id="hamburger">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" style="background-image:url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1800&q=80')"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__eyebrow reveal">Single Origin · Direct Trade</span>
+      <h1 class="hero__title reveal">Coffee at the<br><em>edge of dark.</em></h1>
+      <p class="hero__sub reveal">Sourced from 12 origins. Roasted to obsidian perfection.</p>
+      <div class="hero__ctas reveal">
+        <a href="#shop" class="btn btn--gold">Shop Now</a>
+        <a href="#story" class="btn btn--outline">Our Story</a>
+      </div>
+    </div>
+    <div class="hero__scroll">↓ scroll</div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee">
+    <div class="marquee__track">
+      <span>Single Origin</span><span>·</span>
+      <span>Cold Brew</span><span>·</span>
+      <span>Direct Trade</span><span>·</span>
+      <span>Small Batch</span><span>·</span>
+      <span>Ethiopia · Colombia · Sumatra</span><span>·</span>
+      <span>Single Origin</span><span>·</span>
+      <span>Cold Brew</span><span>·</span>
+      <span>Direct Trade</span><span>·</span>
+      <span>Small Batch</span><span>·</span>
+      <span>Ethiopia · Colombia · Sumatra</span><span>·</span>
+    </div>
+  </div>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="story__images">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80" alt="Coffee being poured" class="story__img story__img--back reveal" />
+      <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80" alt="Coffee beans" class="story__img story__img--front reveal" />
+    </div>
+    <div class="story__text">
+      <span class="eyebrow reveal">Our Story</span>
+      <h2 class="reveal">Born in the dark.<br>Built for the obsessed.</h2>
+      <p class="reveal">Vanta started as a pursuit — find the most complex, darkest, most alive coffees on earth and bring them to people who refuse to settle. No shortcuts. No commodity blends. Just pure origin character, roasted to the edge.</p>
+      <div class="story__stats reveal">
+        <div class="stat"><span class="stat__num">12</span><span class="stat__label">Origins</span></div>
+        <div class="stat"><span class="stat__num">98k</span><span class="stat__label">Bags Roasted</span></div>
+        <div class="stat"><span class="stat__num">100%</span><span class="stat__label">Direct Trade</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <div class="section-header reveal">
+      <span class="eyebrow">The Menu</span>
+      <h2>Every cup, intentional.</h2>
+    </div>
+    <div class="menu__grid">
+      <div class="menu-card reveal">
+        <img src="https://images.unsplash.com/photo-1610889556528-9a770e32642f?w=600&q=80" alt="Espresso" />
+        <div class="menu-card__body">
+          <h3>Vanta Espresso</h3>
+          <p>Dark chocolate, charred oak, lingering smoke.</p>
+          <span class="price">$5.50</span>
+        </div>
+      </div>
+      <div class="menu-card reveal">
+        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=600&q=80" alt="Cold Brew" />
+        <div class="menu-card__body">
+          <h3>Midnight Cold Brew</h3>
+          <p>18-hour steep. Black cherry, molasses, velvet finish.</p>
+          <span class="price">$7.00</span>
+        </div>
+      </div>
+      <div class="menu-card reveal">
+        <img src="https://images.unsplash.com/photo-1578374173705-969cbe6f2d6b?w=600&q=80" alt="Cortado" />
+        <div class="menu-card__body">
+          <h3>Ghost Cortado</h3>
+          <p>Equal parts espresso and steamed milk. Nothing more.</p>
+          <span class="price">$6.00</span>
+        </div>
+      </div>
+      <div class="menu-card reveal">
+        <img src="https://images.unsplash.com/photo-1534040385115-33dcb3acba5b?w=600&q=80" alt="Latte" />
+        <div class="menu-card__body">
+          <h3>Eclipse Latte</h3>
+          <p>Oat milk, house syrup, Ethiopian single origin.</p>
+          <span class="price">$7.50</span>
+        </div>
+      </div>
+      <div class="menu-card reveal">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&q=80" alt="Pour Over" />
+        <div class="menu-card__body">
+          <h3>Pour Over</h3>
+          <p>Your choice of origin. Precision brewed to order.</p>
+          <span class="price">$8.00</span>
+        </div>
+      </div>
+      <div class="menu-card reveal">
+        <img src="https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?w=600&q=80" alt="Matcha" />
+        <div class="menu-card__body">
+          <h3>Obsidian Matcha</h3>
+          <p>Ceremonial grade. Oat milk. No sweetener needed.</p>
+          <span class="price">$6.50</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURE BLEED -->
+  <section class="feature-bleed" style="background-image:url('https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=1800&q=80')">
+    <div class="feature-bleed__overlay"></div>
+    <blockquote class="feature-bleed__quote reveal">
+      "The best coffee you've ever had<br>hasn't been roasted yet."
+      <cite>— Vanta Roasters</cite>
+    </blockquote>
+  </section>
+
+  <!-- ORIGINS -->
+  <section class="origins" id="origins">
+    <div class="section-header reveal">
+      <span class="eyebrow">Origins</span>
+      <h2>Traceable to the farm.</h2>
+    </div>
+    <div class="origin origin--left reveal">
+      <img src="https://images.unsplash.com/photo-1504630083234-14187a9df0f5?w=900&q=80" alt="Ethiopia" />
+      <div class="origin__text">
+        <span class="eyebrow">Ethiopia · Yirgacheffe</span>
+        <h3>The Birthplace</h3>
+        <p>Where coffee was born. Bright florals, bergamot, wine-like acidity. Our Ethiopia is processed naturally on raised beds at 2,000m elevation.</p>
+        <a href="#shop" class="btn btn--gold">Shop Ethiopia</a>
+      </div>
+    </div>
+    <div class="origin origin--right reveal">
+      <img src="https://images.unsplash.com/photo-1500353391678-d7b57979d6d2?w=900&q=80" alt="Colombia" />
+      <div class="origin__text">
+        <span class="eyebrow">Colombia · Huila</span>
+        <h3>The Classic</h3>
+        <p>Caramel sweetness, red apple, clean finish. Sourced from a 3rd-generation family farm in the Huila highlands. Washed process.</p>
+        <a href="#shop" class="btn btn--gold">Shop Colombia</a>
+      </div>
+    </div>
+    <div class="origin origin--left reveal">
+      <img src="https://images.unsplash.com/photo-1511537190424-bbbab87ac5eb?w=900&q=80" alt="Sumatra" />
+      <div class="origin__text">
+        <span class="eyebrow">Sumatra · Mandheling</span>
+        <h3>The Dark One</h3>
+        <p>Earthy, full body, dark chocolate, cedar. Wet-hulled (Giling Basah) process unique to Sumatra. This is what Vanta was built for.</p>
+        <a href="#shop" class="btn btn--gold">Shop Sumatra</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOP -->
+  <section class="shop" id="shop">
+    <div class="section-header reveal">
+      <span class="eyebrow">Shop</span>
+      <h2>Take it home.</h2>
+    </div>
+    <div class="shop__grid">
+      <div class="product-card reveal">
+        <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=600&q=80" alt="Ethiopia Bag" />
+        <div class="product-card__body">
+          <h3>Ethiopia Yirgacheffe</h3>
+          <p>12oz · Whole Bean</p>
+          <div class="product-card__footer">
+            <span class="price">$22.00</span>
+            <button class="btn btn--gold btn--sm add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <img src="https://images.unsplash.com/photo-1587734195503-904fca47e0e9?w=600&q=80" alt="Colombia Bag" />
+        <div class="product-card__body">
+          <h3>Colombia Huila</h3>
+          <p>12oz · Whole Bean</p>
+          <div class="product-card__footer">
+            <span class="price">$20.00</span>
+            <button class="btn btn--gold btn--sm add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <img src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?w=600&q=80" alt="Sumatra Bag" />
+        <div class="product-card__body">
+          <h3>Sumatra Mandheling</h3>
+          <p>12oz · Whole Bean</p>
+          <div class="product-card__footer">
+            <span class="price">$21.00</span>
+            <button class="btn btn--gold btn--sm add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card reveal">
+        <img src="https://images.unsplash.com/photo-1572119865084-43c285814d63?w=600&q=80" alt="Vanta Blend" />
+        <div class="product-card__body">
+          <h3>Vanta Dark Blend</h3>
+          <p>12oz · Whole Bean</p>
+          <div class="product-card__footer">
+            <span class="price">$19.00</span>
+            <button class="btn btn--gold btn--sm add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="newsletter">
+    <div class="newsletter__inner reveal">
+      <div class="newsletter__text">
+        <span class="eyebrow">Stay in the loop</span>
+        <h2>New origins. First access.</h2>
+        <p>We drop new single origins monthly. Subscribers get first access and 10% off every order.</p>
+      </div>
+      <form class="newsletter__form" onsubmit="return false;">
+        <input type="email" placeholder="your@email.com" />
+        <button class="btn btn--gold" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo">VANTA</div>
+        <p>Coffee at the edge of dark.</p>
+        <div class="footer__social">
+          <a href="#">IG</a><a href="#">TW</a><a href="#">TK</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">Ethiopia</a></li>
+          <li><a href="#">Colombia</a></li>
+          <li><a href="#">Sumatra</a></li>
+          <li><a href="#">Blends</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">Our Story</a></li>
+          <li><a href="#">Sustainability</a></li>
+          <li><a href="#">Wholesale</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Vanta Coffee. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
